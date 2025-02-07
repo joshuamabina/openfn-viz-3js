@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Red",
+    "type": "Primary",
+    "description": "Represents life and the strength of the LGBTQ+ community.",
+    "hexCode": "#E50000"
+  },
+  {
+    "name": "Dark Red",
+    "type": "Shade",
+    "description": "A darker variation of red, symbolizing deep passion.",
+    "hexCode": "#8B0000"
+  },
+  {
+    "name": "Light Red",
+    "type": "Shade",
+    "description": "A softer tone of red, symbolizing warmth and acceptance.",
+    "hexCode": "#FF6666"
+  },
+  {
+    "name": "Bright Red",
+    "type": "Tint",
+    "description": "A vibrant, energetic red.",
+    "hexCode": "#E50000"
+  },
+  {
+    "name": "Orange",
+    "type": "Primary",
+    "description": "Represents healing and the transition from life to stability.",
+    "hexCode": "#FF8C00"
+  },
+  {
+    "name": "Dark Orange",
+    "type": "Shade",
+    "description": "A deeper orange that symbolizes the richness of life.",
+    "hexCode": "#D85D00"
+  },
+  {
+    "name": "Light Orange",
+    "type": "Shade",
+    "description": "A lighter tone that embodies warmth and friendship.",
+    "hexCode": "#FFA500"
+  },
+  {
+    "name": "Bright Orange",
+    "type": "Tint",
+    "description": "An energetic and vivid shade of orange.",
+    "hexCode": "#FF8D00"
+  },
+  {
+    "name": "Yellow",
+    "type": "Primary",
+    "description": "Represents sunlight and positivity in the LGBTQ+ community.",
+    "hexCode": "#FFEE00"
+  },
+  {
+    "name": "Dark Yellow",
+    "type": "Shade",
+    "description": "A deep yellow that conveys strength and energy.",
+    "hexCode": "#CCCC00"
+  },
+  {
+    "name": "Light Yellow",
+    "type": "Shade",
+    "description": "A soft yellow that symbolizes light and hope.",
+    "hexCode": "#FFFF66"
+  },
+  {
+    "name": "Bright Yellow",
+    "type": "Tint",
+    "description": "A vibrant yellow that is full of energy and optimism.",
+    "hexCode": "#FFEE00"
+  },
+  {
+    "name": "Green",
+    "type": "Primary",
+    "description": "Represents nature, life, and stability.",
+    "hexCode": "#028121"
+  },
+  {
+    "name": "Dark Green",
+    "type": "Shade",
+    "description": "A darker tone that represents strength and resilience.",
+    "hexCode": "#006400"
+  },
+  {
+    "name": "Light Green",
+    "type": "Shade",
+    "description": "A lighter tone that symbolizes renewal and growth.",
+    "hexCode": "#A9DFBF"
+  },
+  {
+    "name": "Bright Green",
+    "type": "Tint",
+    "description": "A bright green representing hope and progress.",
+    "hexCode": "#028121"
+  },
+  {
+    "name": "Blue",
+    "type": "Primary",
+    "description": "Represents harmony, peace, and serenity.",
+    "hexCode": "#004CFF"
+  },
+  {
+    "name": "Dark Blue",
+    "type": "Shade",
+    "description": "A deep blue representing trust and loyalty.",
+    "hexCode": "#003366"
+  },
+  {
+    "name": "Light Blue",
+    "type": "Shade",
+    "description": "A soft blue that conveys calm and tranquility.",
+    "hexCode": "#ADD8E6"
+  },
+  {
+    "name": "Bright Blue",
+    "type": "Tint",
+    "description": "A bright blue representing freedom and openness.",
+    "hexCode": "#004CFF"
+  },
+  {
+    "name": "Purple",
+    "type": "Primary",
+    "description": "Represents spirit and the LGBTQ+ community's diversity.",
+    "hexCode": "#770088"
+  },
+  {
+    "name": "Dark Purple",
+    "type": "Shade",
+    "description": "A deep purple symbolizing transformation and mystery.",
+    "hexCode": "#4B0082"
+  },
+  {
+    "name": "Light Purple",
+    "type": "Shade",
+    "description": "A light purple representing beauty and compassion.",
+    "hexCode": "#D8A7D1"
+  },
+  {
+    "name": "Bright Purple",
+    "type": "Tint",
+    "description": "A bright purple that symbolizes imagination and creativity.",
+    "hexCode": "#770088"
+  },
+  {
+    "name": "Pink",
+    "type": "LGBTQ+ Friendly",
+    "description": "Represents love, acceptance, and inclusion.",
+    "hexCode": "#FF69B4"
+  },
+  {
+    "name": "Hot Pink",
+    "type": "LGBTQ+ Friendly",
+    "description": "A vibrant pink symbolizing energy and passion.",
+    "hexCode": "#FF69B4"
+  },
+  {
+    "name": "Deep Pink",
+    "type": "LGBTQ+ Friendly",
+    "description": "A deeper pink shade symbolizing love and strength.",
+    "hexCode": "#FF1493"
+  },
+  {
+    "name": "Pale Violet Red",
+    "type": "LGBTQ+ Friendly",
+    "description": "A light pinkish red, representing tenderness and affection.",
+    "hexCode": "#DB7093"
+  },
+  {
+    "name": "Medium Violet Red",
+    "type": "LGBTQ+ Friendly",
+    "description": "A rich pinkish red representing boldness and power.",
+    "hexCode": "#C71585"
+  }
+]

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>OpenFn: Visualizing Global NGO Efforts</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <!-- Link to Google Fonts CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Noto+Sans&family=Montserrat&family=Archivo+Black&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="content">
+        <h1>How OpenFn Helps NGOs</h1>
+        <p>
+          Helping organizations streamline workflows, integrate systems, and
+          unlock insights with seamless data management.
+        </p>
+        <p>
+          OpenFn connects with virtually any app — from Excel to DHIS2,
+          KoboToolbox, or even Google BigQuery. We help NGOs streamline data
+          management, ensure compliance with global standards, and securely
+          exchange data and payments, enabling faster, smarter work in
+          communities worldwide.
+        </p>
+        <a href="https://www.openfn.org/" target="_blank">Learn More</a>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats">
+      <div class="stats-container">
+        <div>
+          <h2 class="stat">130K+</h2>
+          <p>Volunteers Worldwide</p>
+        </div>
+        <div>
+          <h2 class="stat">90+</h2>
+          <p>NGO Projects Supported</p>
+        </div>
+        <div>
+          <h2 class="stat">500+</h2>
+          <!-- Add new stat for Daily Volunteer Contributions -->
+          <p>Daily Volunteer Contributions</p>
+        </div>
+        <div>
+          <h2 class="stat">99.99%</h2>
+          <p>Uptime Guarantee</p>
+        </div>
+      </div>
+    </section>
+
+    <div id="globe"></div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="mt-12 pt-6 border-t border-gray-300">
+        <p>
+          &copy; 2025 OpenFn Open Function Group, Inc. — an independent company
+          committed to empowering organizations through innovative solutions.
+          MIT License.
+        </p>
+        <p>
+          <a href="https://www.openfn.org/">Visit OpenFn Website</a>
+        </p>
+      </div>
+    </footer>
+    <script type="module" defer src="src/main.js"></script>
+    <script>
+      let hueShift = 0;
+
+      function updateStatColors() {
+        const stats = document.querySelectorAll(".stat");
+
+        stats.forEach((stat, index) => {
+          const shiftedHue = (hueShift + index * 60) % 360;
+          stat.style.color = `hsl(${shiftedHue}, 100%, 50%)`;
+        });
+
+        hueShift += 6; // Increment hue for animation
+        requestAnimationFrame(updateColors);
+      }
+
+      function updateHeadingColor() {
+        const heading = document.querySelector("h1");
+        if (heading) {
+          heading.style.backgroundImage = `linear-gradient(90deg,
+            hsl(${hueShift}, 100%, 50%),
+            hsl(${hueShift + 60}, 100%, 50%),
+            hsl(${hueShift + 120}, 100%, 50%),
+            hsl(${hueShift + 180}, 100%, 50%),
+            hsl(${hueShift + 240}, 100%, 50%),
+            hsl(${hueShift + 300}, 100%, 50%)
+          )`;
+
+          heading.style.webkitBackgroundClip = "text";
+          heading.style.color = "transparent"; // Hide normal text color
+          heading.classList.add("animate-bounce"); // Apply bounce animation
+        }
+
+        hueShift = (hueShift + 36) % 360; // Increment hue for animation
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        setInterval(updateHeadingColor, 1000);
+        setInterval(updateStatColors, 3000);
+      });
+    </script>
+  </body>
+</html>

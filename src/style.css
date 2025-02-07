@@ -1,0 +1,187 @@
+/* General Body Styling */
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Noto Sans', sans-serif; /* Noto for body and paragraphs */
+  background-color: #040d21; /* Dark background color */
+  color: #ec4899; /* Pink color for text */
+  line-height: 1.6;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #040d21; /* Dark background color */
+  color: #ec4899; /* Pink text color */
+  text-align: center;
+  padding: 8rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-family: 'Montserrat', sans-serif; /* Use Bowlby One for h1 */
+  font-size: 5rem; /* Big size for impact */
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: #ec4899;
+  letter-spacing: 0.1em;
+}
+
+.hero p {
+  font-family: 'Montserrat', sans-serif; /* Use Noto for paragraph text */
+  font-size: 1.5rem;
+  color: linear-gradient(to right, #ff4b8d, #ec4899);
+  margin-bottom: 2rem;
+  max-width: 800px;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 20px 15%;
+  padding: 15px;
+}
+
+.hero a {
+  background: linear-gradient(to right, #ff4b8d, #ec4899);
+  color: white;
+  padding: 2rem 4rem; /* Increase padding for larger button */
+  border-radius: 9999px;
+  font-size: 2rem; /* Make font bigger for more impact */
+  font-weight: 700; /* Increase weight for boldness */
+  text-transform: uppercase;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Bigger shadow for a more dramatic effect */
+  transition: background 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+  margin-top: 2rem; /* Add space above */
+  display: inline-flex; /* Use flexbox for centering */
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  text-align: center; /* Ensure the text is centered */
+  text-decoration: none; /* Remove underline */
+  transform: scale(1); /* Default size */
+}
+
+.hero a:hover {
+  opacity: 0.9;
+  transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+/* Stats Section */
+#stats {
+  background-color: #f9fafb; /* Light gray background for contrast */
+  padding: 6rem 2rem; /* Increased padding for more breathing room */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#stats h2 {
+  font-family: 'Montserrat', sans-serif; /* Bold, impactful font */
+  font-size: 4rem; /* Larger font size for more emphasis */
+  font-weight: 900; /* Bold font weight */
+  margin-bottom: 2rem; /* Space between the heading and the stats */
+}
+
+#stats .stats-container {
+  display: flex;
+  justify-content: center; /* Center the stats horizontally */
+  align-items: center;
+  width: 100%; /* Ensure the container takes up the full width */
+  max-width: 1200px; /* Prevent stretching on large screens */
+  gap: 3rem; /* Add space between each stat */
+}
+
+#stats .stat {
+  font-size: 3.5rem; /* Slightly increased font size for better emphasis */
+  font-weight: 800;
+  color: #ec4899; /* Pink for stat numbers */
+  margin-bottom: 1.5rem; /* Space between number and description */
+  padding: 1.5rem; /* Padding inside each stat for better spacing */
+}
+
+#stats p {
+  font-size: 1.125rem;
+  color: #6b7280; /* Darker gray for better contrast */
+}
+
+/* Globe Section */
+#globe {
+  width: 100%;
+  height: 100vh;
+  background-color: #f9fafb; /* Light background to contrast with pink text */
+}
+
+/* Footer Section */
+footer {
+  padding: 3rem 1.5rem; /* Adjust padding for a clean, spaced look */
+  text-align: center;
+  font-family: 'Bowlby One', sans-serif; /* Bold, impactful font */
+  color: #ec4899; /* Pink for consistency */
+  width: 100%;
+}
+
+/* Footer paragraph styling */
+footer p {
+  color: #ec4899; /* Maintain pink color for consistency */
+  margin-top: 1rem;
+}
+
+/* Footer link styling */
+footer a {
+  color: #ec4899; /* Consistent pink color */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for footer links */
+footer a:hover {
+  color: #1f2937; /* Darker hover color for contrast */
+  transform: scale(1.05); /* Subtle scaling effect to draw attention */
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 640px) {
+  .hero h1 {
+    font-size: 4.5rem;
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+  }
+
+  .hero a {
+    font-size: 1.25rem;
+  }
+
+  #stats .stat {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero h1 {
+    font-size: 5rem;
+  }
+
+  #stats .stat {
+    font-size: 5rem;
+  }
+}
+
+/* Keyframe animation for the bouncing effect */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Apply animation to elements with the "animate-bounce" class */
+.animate-bounce {
+  animation: bounce 3s ease-in-out infinite;
+}
+

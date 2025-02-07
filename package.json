@@ -1,0 +1,54 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "pandemic",
+    "covid",
+    "education",
+    "health",
+    "openfn",
+    "3d",
+    "threejs"
+  ],
+  "name": "openfn-viz-3js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "@faker-js/faker": "^9.4.0",
+    "@tailwindcss/vite": "^4.0.5",
+    "babel-loader": "^9.2.1",
+    "country-data": "^0.0.31",
+    "css-loader": "^7.1.2",
+    "faker": "^6.6.6",
+    "file-loader": "^6.2.0",
+    "json-loader": "^0.5.7",
+    "lodash": "^4.17.21",
+    "pokemons": "^1.1.0",
+    "postcss": "^8.5.1",
+    "style-loader": "^4.0.0",
+    "three": "^0.173.0",
+    "three-globe": "^2.41.12",
+    "three-glow-mesh": "^0.1.2",
+    "vite": "^6.1.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.5",
+    "autoprefixer": "^10.4.20",
+    "copy-webpack-plugin": "^12.0.2",
+    "html-webpack-plugin": "^5.6.3",
+    "postcss-loader": "^8.1.1",
+    "tailwindcss": "^4.0.5"
+  }
+}

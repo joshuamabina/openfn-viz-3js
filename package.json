@@ -31,7 +31,7 @@
     "faker": "^6.6.6",
     "file-loader": "^6.2.0",
     "json-loader": "^0.5.7",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "pokemons": "^1.1.0",
     "postcss": "^8.5.1",
     "style-loader": "^4.0.0",

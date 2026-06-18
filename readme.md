@@ -1,8 +1,14 @@
-# OpenFn Viz 3D (openfn-viz-3js)
+# WIP
+
+Sex work mapping
+
+- Nightlife
+- Is sex work legal?
+- Is there mandatory HIV/STI testing?
 
 ## Overview
 
-Inspired by the **COVID-19 pandemic** and the need to address global challenges, **openfn-viz-3js** is a project that uses **Three.js** and **ThreeGlobe.js** to create interactive 3D visualizations. This platform helps visualize data and the efforts of volunteers and organizations working on major issues like **LGBTQ+ rights, healthcare, education**, and **environmental sustainability**.
+Inspired by the **COVID-19 pandemic** and the need to address global challenges, **openfn-viz-3js** is a project that uses **Three.js** and **ThreeGlobe.js** to create interactive 3D visualizations. This platform helps visualize data and the efforts of volunteers and organizations working on major issues like **LGBTQ+ rights, sex work healthcare, education**, and **environmental sustainability**.
 
 ![Project Screenshot](screenshot.png)
 
